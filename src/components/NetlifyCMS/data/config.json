@@ -12,7 +12,7 @@
       "name": "posts",
       "label": "Post",
       "description": "The description is a great place for tone setting, high level information, and editing guidelines that are specific to a collection.\n",
-      "folder": "_posts",
+      "folder": "public/_posts",
       "slug": "{{year}}-{{month}}-{{day}}-{{slug}}",
       "create": true,
       "fields": [
@@ -52,7 +52,7 @@
     {
       "name": "faq",
       "label": "FAQ",
-      "folder": "_faqs",
+      "folder": "public/_faqs",
       "create": true,
       "fields": [
         {
@@ -79,7 +79,7 @@
         {
           "name": "general",
           "label": "Site Settings",
-          "file": "_data/settings.json",
+          "file": "public/_data/settings.json",
           "description": "General Site Settings",
           "fields": [
             {
@@ -115,7 +115,7 @@
         {
           "name": "authors",
           "label": "Authors",
-          "file": "_data/authors.yml",
+          "file": "public/_data/authors.yml",
           "description": "Author descriptions",
           "fields": [
             {
@@ -142,7 +142,7 @@
     {
       "name": "kitchenSink",
       "label": "Kitchen Sink",
-      "folder": "_sink",
+      "folder": "public/_sink",
       "create": true,
       "fields": [
         {
