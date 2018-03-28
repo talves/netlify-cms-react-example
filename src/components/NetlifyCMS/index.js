@@ -13,7 +13,7 @@ class NetlifyCMS extends Component {
     console.log('CMS', CMS)
     CMS.init({config});
     // CMS.registerPreviewStyle('static/css/site.css');
-    CMS.registerPreviewTemplate('docs', AuthorsPreview);
+    CMS.registerPreviewTemplate('authors', AuthorsPreview);
     CMS.registerEditorComponent(EditorYoutube);
   }
   render() {
