@@ -5,8 +5,8 @@
     "branch": "master"
   },
   "display_url": "https://netlify-cms-react-example.netlify.com",
-  "media_folder": "public/images/uploads",
-  "public_folder": "/images/uploads",
+  "media_folder": "public/assets/uploads",
+  "public_folder": "/assets/uploads",
   "collections": [
     {
       "name": "posts",
