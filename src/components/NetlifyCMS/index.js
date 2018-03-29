@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './setup'
-import CMS, { init } from 'netlify-cms/dist/cms';
+import CMS, { init } from 'netlify-cms';
 import 'netlify-cms/dist/cms.css';
 import config from './data/config.json';
 import AuthorsPreview from './components/AuthorsPreview';

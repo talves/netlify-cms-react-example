@@ -1,10 +1,12 @@
+(WIP) The project uses the beta feature of manually initializing the CMS (valid in 1.4.0) and is now fully supported.
+
 This example repository has many layers, but the main entry point is the master branch. Other branches will hold examples we feel will also help you get started to design your custom NetlifyCMS.
 
 Have fun Exploring! 🎉
 
 ## Branches:
 
-- [(master)][master] - example from core NetlifyCMS (1.3.6)
+- [(master)][master] - example from core NetlifyCMS project (1.4.0)
 - [(use-routes)][use-routes] - same asgi master with routes (WIP)
 
 ***NOTE:***
