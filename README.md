@@ -7,7 +7,10 @@ Have fun Exploring! 🎉
 ## Branches:
 
 - [(master)][master] - example from core NetlifyCMS project (1.4.0)
-- [(use-routes)][use-routes] - same asgi master with routes (WIP)
+
+## on HOLD
+- [(use-routes)][use-routes] - same as master with routes (WIP - Broken)
+  Not supported at this time. May be revisited once the api is restructured.
 
 ***NOTE:***
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

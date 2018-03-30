@@ -9,7 +9,11 @@ import EditorYoutube from './components/EditorYoutube';
 CMS.init = init;
 
 class NetlifyCMS extends Component {
+  state = {
+    config: this.props.config || config
+  }
   componentDidMount () {
+    const { config } = this.state;
     console.log('CMS', CMS)
     CMS.init({config});
     // CMS.registerPreviewStyle('static/css/site.css');

@@ -1,0 +1,83 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "talves/netlify-cms-react-example",
+    "branch": "master"
+  },
+  "display_url": "https://netlify-cms-react-example.netlify.com",
+  "media_folder": "public/assets/uploads",
+  "public_folder": "/assets/uploads",
+  "collections": [
+    {
+      "name": "settings",
+      "label": "Settings",
+      "delete": false,
+      "editor": {
+        "preview": false
+      },
+      "files": [
+        {
+          "name": "general",
+          "label": "Site Settings",
+          "file": "public/_data/settings.json",
+          "description": "General Site Settings",
+          "fields": [
+            {
+              "label": "Global title",
+              "name": "site_title",
+              "widget": "string"
+            },
+            {
+              "label": "Post Settings",
+              "name": "posts",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Number of posts on frontpage",
+                  "name": "front_limit",
+                  "widget": "number"
+                },
+                {
+                  "label": "Default Author",
+                  "name": "author",
+                  "widget": "string"
+                },
+                {
+                  "label": "Default Thumbnail",
+                  "name": "thumb",
+                  "widget": "image",
+                  "class": "thumb"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "authors",
+          "label": "Authors",
+          "file": "public/_data/authors.yml",
+          "description": "Author descriptions",
+          "fields": [
+            {
+              "name": "authors",
+              "label": "Authors",
+              "widget": "list",
+              "fields": [
+                {
+                  "label": "Name",
+                  "name": "name",
+                  "widget": "string"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "markdown"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
