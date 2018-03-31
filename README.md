@@ -7,10 +7,8 @@ Have fun Exploring! 🎉
 ## Branches:
 
 - [(master)][master] - example from core NetlifyCMS project (1.4.0)
-
-## on HOLD
-- [(use-routes)][use-routes] - same as master with routes (WIP - Broken)
-  Not supported at this time. May be revisited once the api is restructured.
+- [(use-routes)][use-routes] - same as master with routes (With a Caveat)
+  Must use page reload/replace when calling the CMS within a route. The CMS maintains it's own routes based on collections at this time so CMS routes require a page reload to the CMS route. `<Link to='/admin/'>NetlifyCMS</Link>`
 
 ***NOTE:***
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
