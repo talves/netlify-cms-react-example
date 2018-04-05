@@ -7,7 +7,7 @@ Have fun Exploring! 🎉
 ## Branches:
 
 - [(master)][master] - example from core NetlifyCMS project (1.4.0)
-- [(use-routes)][use-routes] - same as master with routes (With a Caveat)
+- [(with-routes)][with-routes] - same as master with routes (With a Caveat)
   Must use page reload/replace when calling the CMS within a route. The CMS maintains it's own routes based on collections at this time so CMS routes require a page reload to the CMS route. `<Link to='/admin/' replace>NetlifyCMS</Link>`
 
 ***NOTE:***
@@ -17,4 +17,4 @@ You can find the most recent version of the guide [here](https://github.com/face
 Always code like you are on 🔥
 
 [master]: https://github.com/talves/netlify-cms-react-example/tree/master
-[use-routes]: https://github.com/talves/netlify-cms-react-example/tree/use-routes
+[with-routes]: https://github.com/talves/netlify-cms-react-example/tree/with-routes
