@@ -6,7 +6,8 @@ Have fun Exploring! 🎉
 
 ## Branches:
 
-- [(master)][master] - example from core NetlifyCMS project (1.4.0)
+- [(master)][master] - example from core NetlifyCMS project (1.5.0)  
+  Now using the local file-system (custom backend) for development, so you can test your configs, etc.
 - [(with-routes)][with-routes] - same as master with routes (With a Caveat)
   Must use page reload/replace when calling the CMS within a route. The CMS maintains it's own routes based on collections at this time so CMS routes require a page reload to the CMS route. `<Link to='/admin/' replace>NetlifyCMS</Link>`
 
