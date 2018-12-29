@@ -1,4 +1,4 @@
-This solution has been moved to my organization and will be maintained at [netlify-cms-components][new-repository]
+This solution has been moved to my organization and will be maintained at [netlify-cms-react-example][new-repository]
 
 # [Deprecated] netlify-cms-react-example
 
