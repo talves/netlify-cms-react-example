@@ -1,3 +1,7 @@
+This solution has been moved to my organization and will be maintained at [netlify-cms-components][new-repository]
+
+# [Deprecated] netlify-cms-react-example
+
 (WIP) The project uses the beta feature of manually initializing the CMS (valid in 1.4.0) and is now fully supported.
 
 This example repository has many layers, but the main entry point is the master branch. Other branches will hold examples we feel will also help you get started to design your custom NetlifyCMS.
@@ -19,3 +23,5 @@ Always code like you are on 🔥
 
 [master]: https://github.com/talves/netlify-cms-react-example/tree/master
 [with-routes]: https://github.com/talves/netlify-cms-react-example/tree/with-routes
+
+[new-repository]: https://github.com/adarta/netlify-cms-react-example
